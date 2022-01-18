@@ -64,7 +64,7 @@ const [loading, setLoading] = useState(true);
         <Icon name="logout" size={28} onPress={() => navigation.navigate('Login')} />
         <View style={{flexDirection: 'row',}}>
         <Icon name="shopping-cart" size={28} onPress={() => navigation.navigate('Cart', `${userid}`)} />
-        <Image source={{uri: image}}style={{height:30,width:30,borderRadius:50/2,}}></Image>
+        <Image source={{uri: image}}style={{height:30,width:30,borderRadius:30}}></Image>
         </View>
       </View>
       <ScrollView>
